@@ -22,18 +22,6 @@ class CountdownTimer{
         
     }
 
-     finish() {
-    clearInterval(this.intervalID)
-    this.clearClockFace()
-  }
-  // ============
-  clearClockFace() {
-    daysContent.textContent = '00'
-    hoursContent.textContent = '00'
-    minsContent.textContent = '00'
-    secondsContent.textContent = '00'
-  }
-
      padValue(value, num, symbol) {
         return String(value).padStart(num, symbol)
     }
