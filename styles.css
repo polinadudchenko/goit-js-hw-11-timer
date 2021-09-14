@@ -1,0 +1,32 @@
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.value {
+  padding: 35px 15px;
+  width: 150px;
+
+  font-family: 'Monoton', sans-serif;
+  font-size: 72px;
+  text-align: center;
+
+  border: 1px #000 solid;
+  border-radius: 20px;
+  background: radial-gradient(#cfb997 65%, #98ceff 74%);
+}
+
+.label {
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 24px;
+}
